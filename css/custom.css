@@ -2037,3 +2037,6 @@ code {
     margin-left: 15px;
   }
 }
+<style type="text/css">
+#my_centered_buttons { display: flex; justify-content: center; }
+</style>

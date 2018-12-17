@@ -11,8 +11,8 @@
 
 .animated {
   visibility: visible;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
 }
 
 body {

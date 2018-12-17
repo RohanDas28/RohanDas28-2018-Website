@@ -1,5 +1,6 @@
-# [rohandas28.github.io](https://rohandas28.github.io)
+![logo](https://rohandas28.github.io/img/favicon.png) 
+## [rohandas28.github.io](https://rohandas28.github.io)
 ---
-# Rohan Das | Passionate Coder With Imagination
-
-# Visit <a href="https://rohandas28.github.io" target="_blank">rohandas28.github.io</a> to know more.
+### Rohan Das | Passionate Coder With Imagination 
+---
+## Visit <a href="https://rohandas28.github.io" target="_blank">rohandas28.github.io</a> to know more.

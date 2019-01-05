@@ -21,15 +21,13 @@
     <!-- animate.css-->
     <link rel="stylesheet" href="sitejs/animate.css/animate.css">
     <!-- theme stylesheet-->
-    <!--link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet"-->
-    <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/styles.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/logo-big.png">
     <!-- Fab Icon-->
     <link rel="stylesheet" href="sitejs/font-mfizz-2.4.1/font-mfizz.css">
-    <!-- Hamburger -->
-    <link rel="stylesheet" href="css/hamburgers.css"> 
+    <!-- Typed.js DONT TOUCHHHHHHHHHHHHH!-->
+    <script src="https://cdn.rawgit.com/mattboldt/typed.js/master/lib/typed.min.js"></script>
   </head>
   <body>
     <!-- Reference item-->
@@ -50,14 +48,14 @@
       </nav>
     </header>
     <!-- Intro Image-->
-    <section id="intro" style="background: url(img/intro.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+    <section id="intro" style="background: url(img/bg.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
       <div class="container text-center">
         <div data-animate="fadeInDown" class="logo"><img src="img/logo-big.png" alt="logo" width="310"></div>
-        <h2 data-animate="fadeInUp" class="text-shadow mb-5" >Rohan Das</h2>
-        <h1 data-animate="fadeInDown" class="text-shadow mb-5">Hello, Bonjour, नमस्ते !</h1>
-        <p data-animate="slideInUp" class="h3 text-shadow text-400">Passionate Coder With Imagination</p>
+        <h2 data-animate="fadeInDown" class="text-shadow mb-5"><span id="typed"></span></h2>
       </div>
     </section>
+  
+    
     <!-- About-->
     <section id="about" class="about-section">
       <div class="container">
@@ -123,9 +121,11 @@
           <a target="_blank" href="mailto:rohandasbirbhum@gmail.com?subject=Hello%20Rohan " class="btn btn-primary btn-lg">Email Me
             <i class="fa fa-envelope ml-"></i></a>
 
+
         </header>
         
     </section>
+    
 
   <!-- Footer-->
 <footer class="main-footer">
@@ -133,7 +133,29 @@
 	<p>2018 <b>©</b> Rohan Das </p>
 	<p class="text-center, text-shadow"  >Proudly Hosted On <a href="https://pages.github.com/"><b>GitHub<b> Pages</a></p>
 </div>
+
  </footer>
+ <!-- Typed.js DONT TOUCH THIS! --> 
+ <div id="typed-strings">
+  </div>
+  
+  <script>
+     var typed = new Typed('#typed',{
+                    strings:["Hello, Bonjour, नमस्ते !","I am <b>Rohan Das<b> ",
+                    "I am a <b>Passionate<b> Coder!",
+                    "I am a <b>Creative<b> Graphic Designer!",
+                    "And, a <b>Passionate Coder With Imagination<b>",
+                    "I am Rohan Das."],
+                    backSpeed: 30,
+                    smartBackspace: true,
+                    backDelay: 1200,
+                    startDelay: 1000,
+                    typeSpeed: 30,
+                    loop: true,
+
+                  });
+    </script>
+
 
     <!-- JavaScript files-->
     <script src="sitejs/jquery/jquery.js"></script>
@@ -144,7 +166,9 @@
     <script src="sitejs/waypoints/lib/jquery.waypoints.js"></script>
     <script src="sitejs/jquery.counterup/jquery.counterup.js"></script>
     <script src="js/front.js"></script>
-    <script src="js/dark.js"></script>
     <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <script src="js/typed.js"></script>
+    
+
   </body>
 </html>

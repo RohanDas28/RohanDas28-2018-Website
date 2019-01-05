@@ -804,7 +804,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /**
 	   * @property {number} typeSpeed type speed in milliseconds
 	   */
-	  typeSpeed: 30,
+	  typeSpeed: 0,
 	
 	  /**
 	   * @property {number} startDelay time before typing starts in milliseconds
@@ -814,7 +814,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /**
 	   * @property {number} backSpeed backspacing speed in milliseconds
 	   */
-	  backSpeed: 30,
+	  backSpeed: 0,
 	
 	  /**
 	   * @property {boolean} smartBackspace only backspace what doesn't match the previous string

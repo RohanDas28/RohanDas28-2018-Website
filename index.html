@@ -19,11 +19,13 @@
     <link rel="stylesheet" href="sitejs/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome CSS-->
     <link rel="stylesheet" href="sitejs/font-awesome/css/font-awesome.min.css">
-    <!-- Google fonts - Roboto + Roboto Slab-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300') }}">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Advent+Pro">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round">
     <!-- owl carousel-->
     <link rel="stylesheet" href="sitejs/owl.carousel/assets/owl.carousel.css">
     <link rel="stylesheet" href="sitejs/owl.carousel/assets/owl.theme.default.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <!-- animate.css-->
     <link rel="stylesheet" href="sitejs/animate.css/animate.css">
     <!-- theme stylesheet-->
@@ -40,7 +42,7 @@
     <!-- navbar-->
     <header class="header">
       <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container"><a href="#intro" class="navbar-brand scrollTo">Rohan Das</a>
+          <a class="navbar-brand" href="#"><img src="img/logo-big.png" width="50" height="50" class="d-inline-block align-center" alt="logo">Rohan Das</a>
           <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
           <div id="navbarcollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
@@ -57,13 +59,13 @@
     <section id="intro" style="background: url(img/bg.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
       <div class="container text-center">
         <div data-animate="fadeInDown" class="logo"><img src="img/logo-big.png" alt="logo" width="310"></div>
-        <h2 data-animate="fadeInDown" class="text-shadow mb-5"><span id="typed"></span></h2>
+        <h2 data-animate="fadeInDown" class="text-shadow"><span id="typed"></span></h2>
       </div>
     </section>
   
     
     <!-- About-->
-    <section id="about" class="about-section">
+    <section id="about" class="bg-gradient about-section">
       <div class="container">
         <header class="text-center">
           <h2 data-animate="fadeInDown" class="title">About me</h2>
@@ -106,10 +108,10 @@
         <hr data-animate="fadeInUp">
       </div>
     </section>
-    <!-- Contact-->
-    <section id="contact" data-animate="bounceIn" class="contact-section contact">
+    <!-- Contact-->  
+    <section id="contact" class="bg-gradient contact-section contact">
       <div class="center" >
-        <header class="text-center">
+        <header class="text-center" data-animate="bounceIn">
           <h2 class="title">How To Contact ?</h2>
           <br>	
           <a target="_blank" href="https://instagram.com/RohanDasYT" class="btn btn-primary btn-lg">Follow Me On Instagram
@@ -152,11 +154,11 @@
                     "I am a <b>Creative<b> Graphic Designer!",
                     "And, a <b>Passionate Coder With Imagination<b>",
                     "I am Rohan Das."],
-                    backSpeed: 30,
+                    backSpeed: 20,
                     smartBackspace: true,
                     backDelay: 1200,
                     startDelay: 1000,
-                    typeSpeed: 30,
+                    typeSpeed: 25,
                     loop: true,
 
                   });

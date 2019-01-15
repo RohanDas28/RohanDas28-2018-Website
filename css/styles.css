@@ -72,8 +72,8 @@ nav.navbar a.nav-link {
 }
 
 .bg-gradient {
-    background: -webkit-gradient(linear, left top, left bottom, from(#007bff), to(#3395ff))!important;
-    background: linear-gradient(to bottom, #007bff, #3395ff)!important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4277db), to(#273da0))!important;
+    background: linear-gradient(to bottom, #4277db, #273da0)!important;
     color: #fff
 }
 
@@ -118,7 +118,8 @@ nav.navbar {
 
 nav.navbar .navbar-brand {
     font-weight: 700;
-    font-family: "Roboto Slab", serif
+    font-family: 'Advent Pro', sans-serif;
+
 }
 
 nav.navbar a.nav-link {
@@ -165,7 +166,7 @@ nav.navbar a.nav-link:hover {
 
 .intro-section .logo,
 .intro-section p {
-    margin-bottom: 120px
+    margin-bottom: 100px
 }
 
 @media (min-width:992px) {
@@ -226,79 +227,6 @@ nav.navbar a.nav-link:hover {
     font-size: .9rem
 }
 
-.testimonials {
-    padding: 0;
-    margin-bottom: 40px
-}
-
-.testimonials .item {
-    list-style-type: none;
-    margin: 0 5px;
-    background: #fff;
-    padding-bottom: 60px
-}
-
-.testimonials .item .testimonial {
-    position: relative;
-    padding: 20px
-}
-
-.testimonials .item .testimonial::after {
-    display: block;
-    clear: both;
-    content: ""
-}
-
-.testimonials .item .testimonial .text {
-    color: #999;
-    margin-bottom: 40px
-}
-
-.testimonials .item .testimonial .text p {
-    color: inherit
-}
-
-.testimonials .item .testimonial .bottom {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 20px;
-    height: 50px
-}
-
-.testimonials .item .testimonial .bottom .icon {
-    color: #007bff;
-    font-size: 30px;
-    float: left;
-    width: 20%
-}
-
-.testimonials .item .testimonial .name-picture {
-    float: right;
-    width: 80%;
-    text-align: right
-}
-
-.testimonials .item .testimonial .name-picture h5 {
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    color: #777
-}
-
-.testimonials .item .testimonial .name-picture p {
-    color: #6c757d;
-    margin: 0;
-    font-size: .875rem
-}
-
-.testimonials .item .testimonial .name-picture img {
-    float: right;
-    width: 60px;
-    border-radius: 30px;
-    margin-left: 10px
-}
 
 .equalize-height .owl-stage {
     display: -webkit-box;
@@ -336,12 +264,12 @@ nav.navbar a.nav-link:hover {
 }
 
 .statistics-section h5 {
-    font-family: Roboto, sans-serif
+    font-family: 'Advent Pro', sans-serif;
 }
 
 #filter li,
 footer.main-footer p {
-    font-family: "Roboto Slab", serif
+    font-family: 'Advent Pro', sans-serif;
 }
 
 .statistics-section .counter {
@@ -554,7 +482,7 @@ footer.main-footer p {
 
 body,
 footer.main-footer p.template {
-    font-family: Roboto, sans-serif
+    font-family: 'Advent Pro', sans-serif;
 }
 
 footer.main-footer p.template {
@@ -1403,7 +1331,7 @@ h4,
 h5,
 h6 {
     margin-bottom: .5rem;
-    font-family: "Roboto Slab", serif;
+    font-family: 'Abel', sans-serif;
     font-weight: 700;
     line-height: 1.2;
     color: inherit

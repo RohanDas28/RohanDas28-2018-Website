@@ -29,13 +29,13 @@
     <!-- animate.css-->
     <link rel="preload" href="sitejs/animate.css/animate.css" as="style" onload="this.rel='stylesheet'">
     <!-- theme stylesheet-->
-    <link rel="preload" href="css/styles.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="stylesheet" href="css/styles.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/logo-big.png">
     <!-- Fab Icon-->
-    <link rel="preload" href="sitejs/font-mfizz-2.4.1/font-mfizz.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css" as="style" onload="this.rel='stylesheet'">
     <!-- Typed.js DONT TOUCHHHHHHHHHHHHH!-->
-    <script src="https://cdn.rawgit.com/mattboldt/typed.js/master/lib/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.9/typed.min.js"></script>
   </head>
   <body>
     <!-- Reference item-->
@@ -68,7 +68,7 @@
     <section id="about" class="bg-gradient about-section">
       <div class="container">
         <header class="text-center">
-          <h2 data-animate="fadeInDown" class="title">About me</h2>
+          <h2 data-animate="fadeInRight" class="title">About me</h2>
         </header>
         <div class="lead">
 
@@ -86,7 +86,7 @@
     <section id="services" class="bg-gradient services-section">
       <div class="container">
         <header class="text-center">
-          <h2 data-animate="fadeInDown" class="title"><strong>Skills</strong></h2>
+          <h2 data-animate="fadeInLeft" class="title"><strong>Skills</strong></h2>
         </header>
         <div class="row services text-center">
           <div data-animate="fadeInUp" class="col-lg-4">
@@ -105,15 +105,14 @@
             <p class="text-left description">I am a Passionate Graphics Designer too. I Love to use Photoshop and experiment with different styles.</p>
           </div>
         </div>
-        <hr data-animate="fadeInUp">
       </div>
     </section>
     <!-- Contact-->  
     <section id="contact" class="bg-gradient contact-section contact">
       <div class="center" >
-        <header class="text-center" data-animate="bounceIn">
+        <header class="text-center" data-animate="fadeInLeft">
           <h2 class="title">How To Contact ?</h2>
-          <br>
+          <div data-animate="fadeInUp">
           <a target="_blank" href="mailto:rohandasbirbhum@gmail.com?subject=Hello%20Rohan " class="container" id="round-contact-button">Email Me
             <i class="fa fa-envelope ml-2 mt-2"></i></a>
             <p></p>	
@@ -129,7 +128,7 @@
            <a target="_blank" href="https://github.com/RohanDas28" class="container" id="round-contact-button"> Follow Me On Github
            	<i class="fa fa-github ml-2 mt-2"></i></a>
           <p></p>
-          
+        </div>
           
 
 

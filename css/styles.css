@@ -105,7 +105,7 @@ nav.navbar a.nav-link {
 nav.navbar {
     padding-top: 0;
     padding-bottom: 0;
-    background: #fff
+    background: #121417;
 }
 
 nav.navbar .navbar-brand {
@@ -118,7 +118,7 @@ nav.navbar .navbar-brand {
         text-shadow: 0 0 11px rgba(0, 0, 0, 0.438);
 }
 nav.navbar a.nav-link {
-    color: #032ad8;
+    color: #90aff3;
     border-top: 0 solid transparent;
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -433,7 +433,7 @@ a:hover {
 }
 
 footer.main-footer {
-    background: #222;
+    background: #121417;
     padding: .5rem
 }
 
@@ -1952,10 +1952,10 @@ code {
     width: 30vmax;
     z-index: 999;
     background: #000;
-    background: -webkit-linear-gradient(to bottom, #3a3de9, #000);
-    background: -o-linear-gradient(to bottom, #3a3de9, #000);
-    background: -moz-linear-gradient(to bottom, #3a3de9, #000);
-    background: linear-gradient(to bottom, #3a3de9, #000);
+    background: -webkit-linear-gradient(to bottom, #2a2df1, #000);
+    background: -o-linear-gradient(to bottom, #2a2df1, #000);
+    background: -moz-linear-gradient(to bottom, #2a2df1, #000);
+    background: linear-gradient(to bottom, #2a2df1, #000);
     -moz-transition: all ease 1s;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;

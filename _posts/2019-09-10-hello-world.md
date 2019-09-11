@@ -1,9 +1,13 @@
 ---
 title: Hello World
-image: https://scontent.fbbi1-1.fna.fbcdn.net/v/t1.0-9/62013457_464759917670049_3444984759791386624_n.jpg?_nc_cat=108&_nc_oc=AQnnb7aOOrfd7yy7Wj7Z9_9XCPyodD96QUcSDryi8ghMnz1LIe45aZCgFrK7VhFzGUI&_nc_ht=scontent.fbbi1-1.fna&oh=98f2c0e49fe32ce41d3e6b2964bd16f7&oe=5DFC3D68
+image: http://localhost:4000/img/logo.jpeg
 author: Rohan Das
 layout: posts
 ---
 
-# Hi, I am Rohan Das
-I am a young and passionate Python coder, who has a good command in Python, HTML, CSS. Also, I am a creative graphic designer and enthusiastic techie who has a YouTube channel where I discusses tech-stuff. For more information, you can contact me via mail and social media.
+## Hi, I am Rohan Das
+Hello everyone, I am [**Rohan**](https://www.instagram.com/RohanDasYT){:target="_blank"}. I am  a **{{ 'now' | date: "%Y" | minus: 2001 }}**-year-old guy, who is a passionate **Python** developer and  a **Technology**  lover. I love Minecraft, Linux, Python, Web Development and [**Mr. Robot**](https://en.wikipedia.org/wiki/Mr._Robot). This website is created using [**Jekyll**](https://jekyllrb.com/). I love to create new stuff from the  knowledge I have. You can follow me on my [Github](https://github.com/RohanDas28){:target="_blank"} to see my current projects. 
+
+If you want to know more [about]({{site.url}}{{site.baseurl}}/#about){:target="_blank"} me, you can simply [contact]({{site.url}}{{site.baseurl}}/#contact){:target="_blank"} me using different social media platforms.<br>
+
+Thankyou for reading this blog❤.

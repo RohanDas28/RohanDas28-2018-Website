@@ -1,0 +1,29 @@
+{% for post in site.posts %}
+<div style="font-family: 'Poppins', sans-serif;" id="card-main" class="col-lg-4 col-md-6 col-sm-6">
+  <a style="text-decoration: none;" href="{{site.url}}{{site.baseurl}}{{post.url}}">
+  <!-- Card -->
+  <div class="card">
+    <!-- Card image -->
+    <img class="card-img" src="{{post.image}}" onError="this.onerror=null;this.src='{{site.url}}{{site.baseurl}}images/meta.jpg';"
+      alt="Card image cap" />
+    <!-- Card image -->
+    <!-- Card content -->
+    <div class="text-center card-body">
+      <!-- Title -->
+      <p class="card-title">
+        <h3>{{post.title | truncate: 50 | strip_html | strip_newlines | strip}}</h3>
+      </p>
+      <!-- Title -->
+      <hr>
+      <!-- Text -->
+      <p class="card-text">{{post.content | truncate: 250 | strip_html | strip_newlines | strip }}</p>
+      <!-- Use this to fetch content from post. {{post.content | truncate: 160 }} -->
+      <!-- Text -->
+      <!-- Card content -->
+    </div>
+  </div>
+  <!-- Card -->
+  </a>
+  <br>
+</div>
+{% endfor %}

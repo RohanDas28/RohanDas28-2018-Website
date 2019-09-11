@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include meta.html %}
+    {% include stylesheets.html %}
+</head>
+
+<body>
+    {% include header.html%}
+    <center>
+        <div style="padding:0;min-height:95.05vh;display:flex;font-family: Poppins, sans-serif;margin-top: 5rem;" class="container-fluid">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <p class="post-title">
+              <h1><a href="{{site.ur}}{{site.baseurl}}{{page.url}}">{{page.title}}</a></h1>
+            </p>
+            {% for author in site.data.authors %}
+            <span class="post-date">{{page.date
+              |
+              date: '<span style="font-weight:600">%B %d, %Y %A</span>' }} by
+              <a style="font-weight:600" href="{{ author.twitter }}" target="_blank">{{page.author}}</a>
+            </span>
+            {% endfor %}
+            <hr>
+            <div><img class="post-image" src="{{page.image}}" alt="{{page.title}}" /></div>
+            <div class="post-content">
+                <br>
+              {{page.content}}
+            </div>
+            <hr>
+          </div>
+        </div>
+      </center>    
+    {% include footer.html %}
+    <!-- Typed.js DONT TOUCH THIS! -->
+    <div id="typed-strings">
+    </div>
+
+    {% include js-files.html %}
+
+
+</body>
+
+</html>

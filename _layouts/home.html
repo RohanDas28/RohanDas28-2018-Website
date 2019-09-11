@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include meta.html %}
+    {% include stylesheets.html %}
+</head>
+
+<body>
+    {% include header.html%}
+    {% include intro-img.html%}
+    {% include about.html%}
+    {% include service.html%}
+    {% include contact.html%}
+    {% include footer.html%}
+    <!-- Typed.js DONT TOUCH THIS! -->
+    <div id="typed-strings">
+    </div>
+
+    <script>
+        var typed = new Typed('#typed', {
+            strings: ["Hello, Bonjour, नमस्ते !", "I am Rohan Das ",
+                "I am a Passionate Coder!",
+                "I am a Creative Graphic Designer!",
+                "I am an enthusiastic Techie!",
+                "Welcome To My page!",
+                "I am Rohan Das."
+            ],
+            backSpeed: 15,
+            smartBackspace: true,
+            backDelay: 1200,
+            startDelay: 1000,
+            typeSpeed: 25,
+            loop: true,
+
+        });
+    </script>
+
+
+{% include js-files.html %}
+
+
+</body>
+
+</html>

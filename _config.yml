@@ -1,0 +1,33 @@
+markdown: kramdown
+
+exclude:
+  - Gemfile
+
+title: Rohan Das
+tagline: Passionate Coder With Imagination
+description: I am a passionate Python coder, who has a good command in HTML and CSS. Also, I am a creative graphic designer and an enthusiastic techie.
+
+author: Rohan Das
+
+permalink: 'blog/:title'
+
+plugins:
+  - jekyll-feed
+  - jekyll-admin
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: 'posts'
+    values:
+      image: ""
+      author: ""
+      layout: posts
+  -
+    scope:
+      path: ""
+      type: 'pages'
+    values:
+      image: ""
+      layout: page

@@ -1,6 +1,6 @@
 ---
 title: Hello World
-image: http://localhost:4000/img/logo.jpeg
+image: https://rohandas28.github.io/img/logo.jpeg
 author: Rohan Das
 layout: posts
 ---

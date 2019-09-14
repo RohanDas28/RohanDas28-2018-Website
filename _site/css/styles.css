@@ -1,7 +1,7 @@
 .title,
 body,
 p {
-    color: #555
+    color: rgb(0, 0, 0)
 }
 
 [data-animate] {
@@ -1307,7 +1307,7 @@ body {
 }
 
 a {
-    color: #4652f5;
+    color: #0e1ef5;
     text-decoration: none
 }
 

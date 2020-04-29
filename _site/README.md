@@ -1,5 +1,6 @@
 ![logo](https://rohandas28.github.io/img/favicon.png) 
 ## [rohandas28.github.io](https://rohandas28.github.io)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 ---
 ### Rohan Das | Passionate Coder With Imagination 
 ---

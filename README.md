@@ -1,4 +1,6 @@
-![logo](https://rohandas28.github.io/img/logobig.png |width="80")
+
+<img src="https://rohandas28.github.io/img/logobig.png" data-canonical-src="https://rohandas28.github.io/img/logobig.png" width="100" height="100"/>
+
 ## [rohandas28.github.io](https://rohandas28.github.io)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 ---

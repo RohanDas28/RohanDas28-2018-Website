@@ -79,7 +79,7 @@ nav.navbar a.nav-link {
 
 .bg-post {
     background: -webkit-gradient(linear, left top, left bottom, from(#2c2534), to(#0f0a3c))!important;
-    background: linear-gradient(to bottom, #126883, #087ec2)!important;
+    background: linear-gradient(to bottom, #dd46c4, #2fa8ee)!important;
     color: #fff
 }
 
@@ -119,9 +119,10 @@ nav.navbar .navbar-brand {
     font-family: 'Advent pro', sans-serif;
 }
 .navbar-brand:hover{
-    color: #770dda;
+    transition: all .4s;
+    transform: scale(1.1);
 
-        text-shadow: 0 0 11px rgba(0, 0, 0, 0.438);
+    text-shadow: 0 0 11px rgba(0, 0, 0, 0.438);
 }
 nav.navbar a.nav-link {
     color: #90aff3;
@@ -1982,7 +1983,7 @@ code {
   }
 
   .disqus-comments{
-    background: rgba(131, 129, 131, 0.75);
+    background: rgba(255, 255, 255, 0.671);
     padding: 1rem;
     border-radius: 0.5rem;
     margin-bottom: 0.5rem;
@@ -1990,3 +1991,27 @@ code {
     -moz-box-shadow: 0px 0px 25px 0px rgba(71, 71, 71, 0.25);
     box-shadow: 0px 0px 25px 0px rgba(63, 63, 63, 0.25);
   }
+
+  .post-title {
+    font-size: 4vmax;
+    margin-top: 6rem;
+    text-decoration: underline;
+    margin-bottom: 0.25vmax;
+    line-height: 1.5;
+  }
+
+  .post-title:hover{
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all ease 1s;
+    -o-transition: all ease 1s;
+    -webkit-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
+    -moz-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    text-shadow: 0 0 11px rgba(0, 0, 0, 0.438);
+  }
+  
+  .post-title a{
+    color: #000000;
+  }
+  
